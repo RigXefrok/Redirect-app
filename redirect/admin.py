@@ -1,0 +1,7 @@
+from django.contrib import admin
+
+from redirect.models import Redirect
+# Register your models here.
+
+
+admin.site.register(Redirect)
